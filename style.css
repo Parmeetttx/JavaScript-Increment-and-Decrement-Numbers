@@ -1,0 +1,36 @@
+body{
+    background-color: steelblue;
+    box-sizing: border-box;
+    margin: 0; padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.outer-box{
+    background-color: azure;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    border-radius: 20px;
+}
+
+.outer-box div{
+    font-size: 2.5rem;
+    font-weight: 600;
+    border-radius: 13px;
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+}
+
+.outer-box div:hover{
+    background-color: #80808036;
+    transition: 0.2s;
+}
+
+.outer-box div:active{
+    transform: scale(0.9);
+}
